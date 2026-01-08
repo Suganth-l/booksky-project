@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' , 'Open Sans' , Arial;
+}
+
+.title {
+    margin-top: 0px;
+    height: 60px;
+    background-color: lightcoral;
+    padding: 10px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.bookContainer{
+    width: 25%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-left: 3%;
+    margin-top: 3%;
+    padding: 10px;
+    padding-top: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.container h2{
+    color: lightcoral;
+}
+.container button{
+    background-color :wheat;
+    color: rgb(0, 0, 0);
+    border-radius: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    width: 20%;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.add-btn{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: black;
+    color: wheat;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: wheat;
+    width: 10%;
+    height: 10%;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+.overlay{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    opacity: 0.8;
+    display: none;
+}
+
+.popup{
+    background-color: lightcoral;
+    position: absolute;
+    width: 40%;
+    top: 25%;
+    left: 25%;
+    border-radius: 10px;
+    z-index: 200;
+    padding: 40px;
+    display: none;
+}
+.popup p{
+    font-weight: 1000;
+
+}
+.popup input{
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    background: transparent;
+    border: none;
+    border-bottom: solid rgb(31, 30, 30);
+}
+
+.popup textarea{
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    background: transparent;
+    border : solid rgb(31, 30, 30);
+}
+
+.popup input::placeholder ,
+.popup textarea::placeholder{
+    color: black;
+}
+.popup input::focus{
+    border: none;
+}
+.popup button{
+    background-color: black;
+    color: wheat;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: wheat;
+    width: 20%;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
